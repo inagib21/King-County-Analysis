@@ -39,7 +39,7 @@ See the King County Assessor Website for further explanation of each building gr
 - `sqft_living15` - The square footage of interior housing living space for the nearest 15 neighbors.
 - `sqft_lot15` - The square footage of the land lots of the nearest 15 neighbors.
 - `month_sold`- Month that the home was sold.
-- `City`- City in which the home is located.
+- `city`- City in which the home is located.
 
 # Methods
 This project utilizes a combination of statistical and machine learning techniques to analyze and model real estate data. The methods used in this project include:
@@ -57,3 +57,71 @@ Properties situated on the waterfront tend to command a premium in the real esta
 ### View 
 ![view ](https://user-images.githubusercontent.com/45716414/214108832-38f64a1e-4526-437d-9e31-bf93f3789804.png)
 A home's view plays a significant role in its sale price, with a clear upward trend observed as the quality of the view increases. A notable increase in sale price can be observed when comparing a property with no view to one with a fair view, as well as when comparing a good view to an excellent view.
+
+# Modeling
+Our model  with the best perfomance had an R-Squared and Adjusted R-Squared score of .839.The F-statistic and a very low p-value indicate that the model is statistically significant and that the predictor variables collectively explain a significant amount of the variation in price. For this model we did not include the date column and we used One Hot encoding on the `city` and `zipcode` columns.
+
+- The coefficient values for the 'condition', 'grade', and 'view' columns represent the average change in the 'price' variable for a unit increase in the respective column.
+- The condition of the property was found to have a positive impact on its value, with an incremental increase of 26,400 dollars per unit increase in the condition score, as assessed on a scale of 0 to 4.
+- A higher grade level increased the value of a house by 55,670 dollars per unit grade on a scale of 3 to 13
+- Properties with a better view had an increase in value of 47,690 dollars per unit increase on a scale form 0 to 4
+- Each additional bathroom resulted in an increase of 31,000 dollars in home value.
+- Homes located on a waterfront had an increase in value of 359,800 dollars.
+- For every 1 sqft increase in living space, the price of the property increases by 62.33 dollars.
+- The condition of the property was found to have a positive impact on its value, with an incremental increase of 26,400 dollars per unit increase in the condition score, as assessed on a scale of 0 to 4.
+- The coefficient values suggest a negative correlation between the number of bedrooms and floors with the price,it's important to note that this conclusion is most likely incorrect and further analysis is needed.
+
+# Limitations and Further Analysis
+   Our final model demonstrated an accuracy rate of 83.9% on the data set utilized. While this level of accuracy is sufficient to generate observations and insights, it is not appropriate to arrive at any definitive conclusions at this time. Our coefficient scores for bedrooms and floors were negative, which warrants further investigation. Our visualizations of various variables allowed us to discern their relationship with the target variable, price. Based on our observations, we believe that an increase in the number of floors and bedrooms would not have a negative impact on the price of a property, but rather the opposite. However, it is possible that this conclusion may be affected by the limited scope of our data, and incorporating additional data into the model could provide further insight. Our future analyses should include incorporating both recent and historical data. The real estate industry is known for its cyclical nature, however, we were unable to detect any statistically significant correlation with the date of sale. This is likely due to the limited scope of our data, which only covered a one-year period. In general, home sales tend to increase during the summer months and decrease during the winter. Therefore, our future analyses should also consider the impact of seasonality on real estate trends.
+
+### Use Alternative data:
+ Alternative data can provide valuable insights into the performance and potential of real estate investments. An example of some of the data we should consider using includes:
+
+
+**Demographic data** : This type of data can provide information about the age, income, and education level of people in a particular area, which can be useful for identifying areas that are likely to experience population growth in the future.
+
+**Social media data**: Platforms like Twitter and Instagram can provide insight into what people are saying about a particular area, which can be useful for identifying areas that are becoming trendy or experiencing a decline in popularity.
+
+**Satellite data**: Imagery and data captured by satellites can be used to track changes in land use, such as the construction of new buildings or the expansion of roads, which can provide insight into the potential for development in a particular area.
+
+
+### Use Different models:
+There are several alternative methods to the ordinary least squares (OLS) method that can be used for modeling real estate data, depending on the specific requirements of the analysis and the nature of the data. Here are a few examples:
+
+1. **Decision tree models**: Decision trees are a popular method for modeling real estate data because they can handle both continuous and categorical variables, and they can also handle non-linear relationships. They can be used to make predictions about the price of a property based on its features and characteristics.
+
+2. **Random Forest models**: Random Forest is an extension of decision trees. It is a collection of decision trees where a random subset of features is used at each split. The final prediction is an average of all the decision trees. They are often more accurate than decision trees.
+
+3. **Gradient Boosting models**: Gradient Boosting is an ensemble method that combines multiple weak models to create a more accurate and robust model. They work well when there are non-linear relationships in the data.
+
+4. **Support Vector Regression (SVR)**: SVR is a type of algorithm that can be used for both linear and non-linear regression problems. It can handle non-linear relationships by mapping the input data into a higher dimensional space where a linear boundary can be drawn between the classes.
+
+5. **Neural Network models**: Neural networks are a type of algorithm that can be used for both linear and non-linear regression problems. They are particularly useful when there are a large number of predictor variables or when the relationships between the predictor variables and the response variable are complex.
+
+### Use One Hot Encoding on  Condition, Grade, View Columnns:
+In our final model, we utilized one-hot encoding for the City and zipcode columns, but did not utilize the same method for the Condition, Grade, and View columns. Upon further evaluation, it is plausible that the model performance could be enhanced by implementing one-hot encoding for these variables as well. However, we did not use one-hot encoding, instead, we transformed the categorical variables into numerical ones. This approach was selected to facilitate the modeling process.
+
+**Condition**: 
+
+{'Poor': 0, 'Fair': 1, 'Average': 2,'Good':3, 'Very Good':4}
+
+**Grade**:
+
+{'3 Poor': 3, '4 Low': 4, '5 Fair': 5, '6 Low Average': 6, '7 Average': 7,'8 Good': 8, '9 Better': 9, '10 Very Good': 10, '11 Excellent': 11, '12 Luxury': 12,'13 Mansion': 13}
+
+
+**View**: {'NONE': 0, 'FAIR': 1, 'AVERAGE': 2, 'GOOD': 3, 'EXCELLENT': 4}
+
+### Adressing Normality:
+
+Our data failed to pass the normality test, indicating that it did not conform to a normal distribution. In light of this, we elected not to transform the data using a logarithmic function, in order to maintain the accuracy of the relationships between our variables. As a next step, we recommend utilizing non-parametric statistical methods, such as the Wilcoxon rank-sum test, the Kruskal-Wallis test, and the Wilcoxon signed-rank test, which are suitable for data that does not follow a normal distribution.
+
+1. **The Wilcoxon rank-sum test** (also known as the Mann-Whitney test) is a non-parametric test used to determine if there is a significant difference between the medians of two groups of data. It is used to compare two independent groups, and it does not assume that the data is normally distributed.
+
+2. **The Kruskal-Wallis test** is a non-parametric test used to determine if there is a significant difference between the medians of two or more groups of data. It is used to compare more than two independent groups and it does not assume that the data is normally distributed.
+
+3. **The Wilcoxon signed-rank test** is a non-parametric test used to determine if there is a significant difference between the medians of two related groups of data. It is used to compare two dependent groups and it does not assume that the data is normally distributed.
+
+# For More information:
+Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/dsc-phase-2-project-v2-3/blob/main/student.ipynb
+as well as the presensation for the notebook:
