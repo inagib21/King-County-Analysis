@@ -1,5 +1,5 @@
 # King County Housing Sale Price Analysis
-![newplot (4)](https://user-images.githubusercontent.com/45716414/214111865-7f8e215f-3e65-480a-bc8f-0f60534258b2.png)
+![seattle_skyline](https://user-images.githubusercontent.com/45716414/214114074-42d7d110-adf8-4dd6-a940-7357fb93a90a.jpeg)
 
 
 By Nagib Gonzalez
