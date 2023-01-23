@@ -48,13 +48,14 @@ This project utilizes a combination of statistical and machine learning techniqu
 - Linear regression: Linear regression was used to model the relationship between the predictor variables and the target variable (price). The ordinary least squares (OLS) method was used to fit the model to the data.
 
 # Results
-### Grade
+## Grade
 <img width="1001" alt=" price_vs_grade" src="https://user-images.githubusercontent.com/45716414/214108313-d7caa6b3-40b4-4db2-b8b1-185d48a248ad.png">
 The quality and level of finish of a home, as reflected in its grade, has a profound effect on its market value. As the grade of a home improves, there is a clear correlation with an increase in the mean sale price of the property, with each step up in grade level resulting in a significant boost in value.
 
+## Waterfront
 ![newplot (2)](https://user-images.githubusercontent.com/45716414/214108115-e9d6ad0d-9356-4e4f-9a74-7f13949bf7ae.png)
 Properties situated on the waterfront tend to command a premium in the real estate market. This is reflected in the sale prices, which are consistently higher than those of properties located inland, often by a range of $300,000 to $500,000 or more.
-### View 
+## View 
 ![view ](https://user-images.githubusercontent.com/45716414/214108832-38f64a1e-4526-437d-9e31-bf93f3789804.png)
 A home's view plays a significant role in its sale price, with a clear upward trend observed as the quality of the view increases. A notable increase in sale price can be observed when comparing a property with no view to one with a fair view, as well as when comparing a good view to an excellent view.
 
@@ -124,4 +125,5 @@ Our data failed to pass the normality test, indicating that it did not conform t
 
 # For More information:
 Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/dsc-phase-2-project-v2-3/blob/main/student.ipynb
+
 as well as the presentation for the notebook: https://github.com/inagib21/dsc-phase-2-project-v2-3/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS.pdf
