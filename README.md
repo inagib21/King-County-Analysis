@@ -1,3 +1,10 @@
+# King County Housing Sale Price Analysis
+
+By Nagib Gonzalez
+
+#Overview
+For this project we focused on analyzing King County, Washington real estate data to identify trends and patterns that can be used to inform investment decisions. The analysis includes cleaning and preprocessing the data, using statistical methods such as Ordinary Least Squares (OLS) to model the data, and visualizing the results to gain insights into the relationships between different variables and the target variable (price). 
+
 # Business Problem:
 Nimble Home Buyers, a real estate investment company, is seeking to expand their operations into the state of Washington. To support this endeavor, they have engaged the services of a data scientist to analyze King County housing data in order to identify the factors that influence home prices and the extent of their impact. This information will be instrumental in making informed decisions and successfully establishing a presence in the Washington market.
    
@@ -32,3 +39,12 @@ See the King County Assessor Website for further explanation of each building gr
 - `month_sold`- Month that the home was sold.
 - `City`- City in which the home is located.
 
+# Methods
+This project utilizes a combination of statistical and machine learning techniques to analyze and model real estate data. The methods used in this project include:
+- Data cleaning and preprocessing: The raw data was cleaned and preprocessed to handle missing values, outliers, and inconsistencies.
+- Exploratory data analysis (EDA): EDA was used to gain insights into the structure and relationships in the data. This involved visualizing the data using various plots and summarizing the data using descriptive statistics.
+- Linear regression: Linear regression was used to model the relationship between the predictor variables and the target variable (price). The ordinary least squares (OLS) method was used to fit the model to the data.
+
+# Results
+
+![newplot (4)](https://user-images.githubusercontent.com/45716414/213967062-fb5532bc-b286-48d0-be6b-28f533dea8e7.png)
