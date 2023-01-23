@@ -124,4 +124,4 @@ Our data failed to pass the normality test, indicating that it did not conform t
 
 # For More information:
 Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/dsc-phase-2-project-v2-3/blob/main/student.ipynb
-as well as the presensation for the notebook:
+as well as the presentation for the notebook: https://github.com/inagib21/dsc-phase-2-project-v2-3/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS.pdf
