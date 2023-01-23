@@ -2,7 +2,7 @@
 
 By Nagib Gonzalez
 
-#Overview
+# Overview
 For this project we focused on analyzing King County, Washington real estate data to identify trends and patterns that can be used to inform investment decisions. The analysis includes cleaning and preprocessing the data, using statistical methods such as Ordinary Least Squares (OLS) to model the data, and visualizing the results to gain insights into the relationships between different variables and the target variable (price). 
 
 # Business Problem:
@@ -46,5 +46,11 @@ This project utilizes a combination of statistical and machine learning techniqu
 - Linear regression: Linear regression was used to model the relationship between the predictor variables and the target variable (price). The ordinary least squares (OLS) method was used to fit the model to the data.
 
 # Results
+
+<img width="1001" alt=" price_vs_grade" src="https://user-images.githubusercontent.com/45716414/214108313-d7caa6b3-40b4-4db2-b8b1-185d48a248ad.png">
+
+![newplot (4)](https://user-images.githubusercontent.com/45716414/213967062-fb5532bc-b286-48d0-be6b-28f533dea8e7.png)
+
+![newplot (2)](https://user-images.githubusercontent.com/45716414/214108115-e9d6ad0d-9356-4e4f-9a74-7f13949bf7ae.png)
 
 ![newplot (4)](https://user-images.githubusercontent.com/45716414/213967062-fb5532bc-b286-48d0-be6b-28f533dea8e7.png)
