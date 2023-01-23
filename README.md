@@ -1,4 +1,6 @@
 # King County Housing Sale Price Analysis
+![newplot (4)](https://user-images.githubusercontent.com/45716414/214111865-7f8e215f-3e65-480a-bc8f-0f60534258b2.png)
+
 
 By Nagib Gonzalez
 
@@ -50,10 +52,8 @@ This project utilizes a combination of statistical and machine learning techniqu
 <img width="1001" alt=" price_vs_grade" src="https://user-images.githubusercontent.com/45716414/214108313-d7caa6b3-40b4-4db2-b8b1-185d48a248ad.png">
 The quality and level of finish of a home, as reflected in its grade, has a profound effect on its market value. As the grade of a home improves, there is a clear correlation with an increase in the mean sale price of the property, with each step up in grade level resulting in a significant boost in value.
 
-![newplot (4)](https://user-images.githubusercontent.com/45716414/213967062-fb5532bc-b286-48d0-be6b-28f533dea8e7.png)
-
 ![newplot (2)](https://user-images.githubusercontent.com/45716414/214108115-e9d6ad0d-9356-4e4f-9a74-7f13949bf7ae.png)
-
+Properties situated on the waterfront tend to command a premium in the real estate market. This is reflected in the sale prices, which are consistently higher than those of properties located inland, often by a range of $300,000 to $500,000 or more.
 ### View 
 ![view ](https://user-images.githubusercontent.com/45716414/214108832-38f64a1e-4526-437d-9e31-bf93f3789804.png)
 A home's view plays a significant role in its sale price, with a clear upward trend observed as the quality of the view increases. A notable increase in sale price can be observed when comparing a property with no view to one with a fair view, as well as when comparing a good view to an excellent view.
