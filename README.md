@@ -133,6 +133,6 @@ Our data failed to pass the normality test, indicating that it did not conform t
 # For More information:
 Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/King-County-Analysis/blob/main/student.ipynb
 
-as well as the presentation for the notebook and blog post: https://github.com/inagib21/King-County-Analysis/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS.pdf
+as well as the presentation for the notebook and blog post: https://github.com/inagib21/King-County-Analysis/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS%20(1).pdf
 
 https://medium.com/@inagib21/king-county-real-estate-analysis-edcbd1063a5
