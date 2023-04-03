@@ -51,19 +51,18 @@ This project utilizes a combination of statistical and machine learning techniqu
 ## Grade:
 The quality and level of finish of a home, as reflected in its grade, has a profound effect on its market value. As the grade of a home improves, there is a clear correlation with an increase in the mean sale price of the property, with each step up in grade level resulting in a significant boost in value.
 
-<img width="1001" alt=" price_vs_grade" src="https://user-images.githubusercontent.com/45716414/214108313-d7caa6b3-40b4-4db2-b8b1-185d48a248ad.png">
-
+![image](https://user-images.githubusercontent.com/45716414/229629957-1da1b51b-b005-4206-9698-09e613e2e09f.png)
 
 ## Waterfront:
 Properties situated on the waterfront tend to command a premium in the real estate market. This is reflected in the sale prices, which are consistently higher than those of properties located inland, often by a range of $300,000 to $500,000 or more.
 
-![newplot (2)](https://user-images.githubusercontent.com/45716414/214108115-e9d6ad0d-9356-4e4f-9a74-7f13949bf7ae.png)
+![image](https://user-images.githubusercontent.com/45716414/229630333-6b3d6d25-419b-46a8-add3-44d5239f4c35.png)
 
 
 ## View:
 A home's view plays a significant role in its sale price, with a clear upward trend observed as the quality of the view increases. A notable increase in sale price can be observed when comparing a property with no view to one with a fair view, as well as when comparing a good view to an excellent view.
 
-![view ](https://user-images.githubusercontent.com/45716414/214108832-38f64a1e-4526-437d-9e31-bf93f3789804.png)
+![image](https://user-images.githubusercontent.com/45716414/229630602-08f3df62-0e8d-48db-9169-ca13c5a528b9.png)
 
 
 # Modeling
