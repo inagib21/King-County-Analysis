@@ -132,7 +132,7 @@ Our data failed to pass the normality test, indicating that it did not conform t
 3. **The Wilcoxon signed-rank test** is a non-parametric test used to determine if there is a significant difference between the medians of two related groups of data. It is used to compare two dependent groups and it does not assume that the data is normally distributed.
 
 # For More information:
-Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/King-County-Analysis/blob/main/student.ipynb
+Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/King-County-Analysis/blob/b03d863ddbfad3af68d01a4e9d9c8584d4e939bb/student.ipynb
 
 as well as the presentation for the notebook and blog post: https://github.com/inagib21/King-County-Analysis/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS%20(1).pdf
 
