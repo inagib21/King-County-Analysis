@@ -1,4 +1,4 @@
-# King County Housing Sale Price Analysis
+# King County Housing Sale Price Analysis:
 ![seattle_skyline](https://user-images.githubusercontent.com/45716414/214114074-42d7d110-adf8-4dd6-a940-7357fb93a90a.jpeg)
 
 
@@ -51,19 +51,20 @@ This project utilizes a combination of statistical and machine learning techniqu
 ## Grade:
 The quality and level of finish of a home, as reflected in its grade, has a profound effect on its market value. As the grade of a home improves, there is a clear correlation with an increase in the mean sale price of the property, with each step up in grade level resulting in a significant boost in value.
 
-<img width="1001" alt=" price_vs_grade" src="https://user-images.githubusercontent.com/45716414/214108313-d7caa6b3-40b4-4db2-b8b1-185d48a248ad.png">
+![image](https://user-images.githubusercontent.com/45716414/229951137-44fee8e9-deb5-4839-80c0-ecf2583fcdb2.png)
 
 
 ## Waterfront:
 Properties situated on the waterfront tend to command a premium in the real estate market. This is reflected in the sale prices, which are consistently higher than those of properties located inland, often by a range of $300,000 to $500,000 or more.
 
-![newplot (2)](https://user-images.githubusercontent.com/45716414/214108115-e9d6ad0d-9356-4e4f-9a74-7f13949bf7ae.png)
+<img width="719" alt="Screen Shot 2023-04-04 at 7 34 09 PM" src="https://user-images.githubusercontent.com/45716414/229950983-4c7d35eb-ce57-42f4-8838-432806f64948.png">
 
 
 ## View:
 A home's view plays a significant role in its sale price, with a clear upward trend observed as the quality of the view increases. A notable increase in sale price can be observed when comparing a property with no view to one with a fair view, as well as when comparing a good view to an excellent view.
 
-![view ](https://user-images.githubusercontent.com/45716414/214108832-38f64a1e-4526-437d-9e31-bf93f3789804.png)
+![image](https://user-images.githubusercontent.com/45716414/229951278-b2594e55-07da-4fe3-b86b-0a8cd68e39bf.png)
+
 
 
 # Modeling
@@ -131,6 +132,8 @@ Our data failed to pass the normality test, indicating that it did not conform t
 3. **The Wilcoxon signed-rank test** is a non-parametric test used to determine if there is a significant difference between the medians of two related groups of data. It is used to compare two dependent groups and it does not assume that the data is normally distributed.
 
 # For More information:
-Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/dsc-phase-2-project-v2-3/blob/main/student.ipynb
+Please check out the Jupyter notebook with interactive visualizations: https://nbviewer.org/github/inagib21/King-County-Analysis/blob/main/student.ipynb
 
-as well as the presentation for the notebook: https://github.com/inagib21/dsc-phase-2-project-v2-3/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS.pdf
+as well as the presentation for the notebook and blog post: https://github.com/inagib21/King-County-Analysis/blob/main/KING%20COUNTY%20REAL%20ESTATE%20ANALYSIS%20(1).pdf
+
+https://medium.com/@inagib21/king-county-real-estate-analysis-edcbd1063a5
