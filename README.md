@@ -56,7 +56,7 @@ The quality and level of finish of a home, as reflected in its grade, has a prof
 ## Waterfront:
 Properties situated on the waterfront tend to command a premium in the real estate market. This is reflected in the sale prices, which are consistently higher than those of properties located inland, often by a range of $300,000 to $500,000 or more.
 
-![image](https://user-images.githubusercontent.com/45716414/229630333-6b3d6d25-419b-46a8-add3-44d5239f4c35.png)
+<img width="719" alt="Screen Shot 2023-04-04 at 7 34 09 PM" src="https://user-images.githubusercontent.com/45716414/229950983-4c7d35eb-ce57-42f4-8838-432806f64948.png">
 
 
 ## View:
